@@ -1,0 +1,16 @@
+#
+# SO2 - Networking Lab (#11)
+#
+# Makefile for test filter module
+#
+
+CFLAGS = -Wall
+
+all: test
+
+test: test.o
+
+.PHONY: clean
+
+clean:
+	-rm -f test *~ *.o

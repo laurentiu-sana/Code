@@ -1,0 +1,35 @@
+compile
+run ../examples/dummy.while
+run ../examples/choice.while
+run ../examples/assume.while
+run ../examples/choice.while
+run ../examples/demo.while
+run ../examples/havoc.while
+run ../examples/loop.while
+run ../examples/sums.while
+run ../examples/while.while
+compile
+run ../examples/assume.while
+List(replaceFormulaWithFresh(lf, replace_map, "_p"), replaceFormulaWithFresh(rf, replace_map, "")
+run ../examples/assume.while
+compie
+run ../examples/assume.while
+run ../examples/choice.while
+run ../examples/demo.while
+run ../examples/dummy.while
+run ../examples/havoc.while
+run ../examples/loop.while
+run ../examples/sums.while
+run ../examples/while.while
+run ../examples/demo.while
+run ../examples/assert.while
+run ../examples/sums.while
+run ../examples/demo.while
+run ../examples/assert.while
+run ../examples/assume.while
+run ../examples/choice.while
+run ../examples/dummy.while
+run ../examples/havoc.while
+run ../examples/loop.while
+run ../examples/sums.while
+run ../examples/while.while

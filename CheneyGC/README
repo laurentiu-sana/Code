@@ -1,0 +1,41 @@
+Laurentiu Dascalu
+
+  As expected, I implemented the Cheney's algorithm in memory_copying_gc.c.
+I used the algorithm presented in slides (course 9, starting with the slide 88),
+that uses two pointers: <free> and <scan>.
+
+  Basically, it does BFS (Breadth-first-search on the reachability graph, starting
+from the registers Lb, Ib and Ob). BFS is not recursive and uses a queue,
+represented here as the difference between <free> and <scan>. Each time I copy a
+pointer from the "from" heap to the "to" heap, I make sure that the pointer in "to"
+is added to that particular bitmap. Also, the copied pointer in "from" is tagged
+with 0, because next time I encounter it, I don't need to do a copy operation; this
+is how I solved the double copying problem.
+
+  At the end of a GC iteration, I swap the pointers of the "from" heap and the "to"
+heap. Also, I have asserts in the code and I make sure that I execute the right
+asserts by comparing the <from_heap> with the <to_heap>. For example:
+
+if (to_heap > from_heap)
+  assert(free > to_heap && free < memory_end);
+else
+  assert(free > to_heap && free < from_heap);
+
+  The GC has a minor problem: it calls memset two times on the "to" heap. First,
+at the beginning of the iteration and then at its end. I don't think this is a
+problem, because I didn't see any performance issues in the assignment statement
+and I'm pressed by time. The solution would be to clear only the pointers copied
+from the "from" heap to the "to" heap, instead of cleaning the whole heap. I
+tried a simple implementation, but it didn't work from the first try and because
+I don't have time to debug it, I give the inefficient implementation. I hope this
+will not affect my grade.
+
+= Tests =
+  I tested on the given examples (bignums, maze, pascal, queens) and it worked
+as expected.
+
+= Question =
+
+  I had to copy paste the functions: addr_p_to_v and addr_v_to_p from engine.c;
+why didn't you them accessible in other files? (e.g. delete static, I can use
+extern to link this them).

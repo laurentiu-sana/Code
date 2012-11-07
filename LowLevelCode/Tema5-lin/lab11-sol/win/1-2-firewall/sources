@@ -1,0 +1,5 @@
+TARGETNAME = firewall
+TARGETPATH = obj
+TARGETTYPE = DRIVER
+
+SOURCES = firewall.c

@@ -1,0 +1,12 @@
+#Source Dependencies
+#Sat Apr 09 22:51:07 CEST 2011
+src/whilelang/Lexer.scala=src/whilelang/Parser.scala
+src/whilelang/Parser.scala=src/whilelang/Main.scala
+src/whilelang/Unrolling.scala=src/whilelang/Main.scala
+src/whilelang/Conversion.scala=src/whilelang/Main.scala
+src/whilelang/Main.scala=
+src/whilelang/Tree.scala=src/whilelang/Conversion.scala\:src/whilelang/Unrolling.scala\:src/whilelang/VGGen.scala\:src/whilelang/Parser.scala\:src/whilelang/Main.scala
+src/whilelang/Formula.scala=src/whilelang/VGGen.scala\:src/whilelang/Main.scala\:src/whilelang/FormulasDemo.scala
+src/whilelang/FormulasDemo.scala=
+src/whilelang/VGGen.scala=src/whilelang/Main.scala
+src/whilelang/Error.scala=src/whilelang/Lexer.scala\:src/whilelang/Parser.scala\:src/whilelang/Main.scala

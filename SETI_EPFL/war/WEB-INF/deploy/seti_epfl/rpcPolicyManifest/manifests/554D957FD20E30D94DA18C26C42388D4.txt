@@ -1,0 +1,2 @@
+serviceClass: ch.epfl.seti.client.ServerService
+path: 72AE7AC9DB5ED6D0586B4B549F90EF65.gwt.rpc

@@ -1,0 +1,5 @@
+TARGETNAME = filter
+TARGETPATH = obj
+TARGETTYPE = DRIVER
+
+SOURCES = filter.c

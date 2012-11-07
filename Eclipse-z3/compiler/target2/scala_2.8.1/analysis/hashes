@@ -1,0 +1,12 @@
+#Source Hashes
+#Sat Apr 09 22:51:07 CEST 2011
+src/whilelang/Lexer.scala=7f6cd6548ce8f56d35b44b2825d50f76266c665d
+src/whilelang/Parser.scala=57a72f2bba7e66d7ba283b551b48dc1a3c9ae6a5
+src/whilelang/Unrolling.scala=903502be4680ac10e9c126bd429cdd6629bc10d4
+src/whilelang/Conversion.scala=ec9d3bf9279e6a3a203736a46f21970f4f48066b
+src/whilelang/Main.scala=14b500e49bb03d25f448615054e71c9f18825214
+src/whilelang/Tree.scala=3ae1328fe590138423590d4066ce0671adcbe0f8
+src/whilelang/Formula.scala=7f255228c21efb568f2d6d19b9d4f1602ae743e9
+src/whilelang/FormulasDemo.scala=7e099cc50aa38d6f258db836ba9e6b59551c9f90
+src/whilelang/VGGen.scala=15cadc6433dba1dfdc046044130c255cc83e9647
+src/whilelang/Error.scala=4c19bbc552882f9fe5be4e07174f9f12f2de713f

@@ -1,0 +1,3 @@
+# Module seti_epfl
+# RPC service class, partial path of RPC policy file
+ch.epfl.seti.client.ServerService, 72AE7AC9DB5ED6D0586B4B549F90EF65.gwt.rpc

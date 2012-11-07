@@ -1,0 +1,4 @@
+#External Dependencies
+#Sat Apr 09 22:51:07 CEST 2011
+/usr/lib/jvm/java-6-sun-1.6.0.22/jre/lib/rt.jar=src/whilelang/FormulasDemo.scala\:src/whilelang/Lexer.scala\:src/whilelang/VGGen.scala\:src/whilelang/Main.scala\:src/whilelang/Conversion.scala\:src/whilelang/Unrolling.scala\:src/whilelang/Tree.scala\:src/whilelang/Error.scala\:src/whilelang/Parser.scala\:src/whilelang/Formula.scala
+/home/sana/Desktop/Cursuri_EPFL/Semester2/SAV/workspace/Eclipse-z3/compiler/project/boot/scala-2.8.1/lib/scala-library.jar=src/whilelang/FormulasDemo.scala\:src/whilelang/Lexer.scala\:src/whilelang/VGGen.scala\:src/whilelang/Main.scala\:src/whilelang/Conversion.scala\:src/whilelang/Unrolling.scala\:src/whilelang/Tree.scala\:src/whilelang/Error.scala\:src/whilelang/Parser.scala\:src/whilelang/Formula.scala
